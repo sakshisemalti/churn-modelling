@@ -23,17 +23,18 @@ This project is a **Streamlit web application** that predicts whether a customer
 ---
 
 ## 📂 Project Structure
-├── app.py                          # Streamlit app for interactive churn prediction
+
+├── app.py                         # Streamlit app for interactive churn prediction
 ├── model.h5                       # Trained Keras model
 ├── Data/
 │   ├── label_encoder_gender.pkl   # Saved LabelEncoder for Gender
 │   ├── encode_geo.pkl             # Saved OneHotEncoder for Geography
-│   └── scaler.pkl                  # Saved StandardScaler
-├── training.py                     # Script used to train the churn model
+│   └── scaler.pkl                 # Saved StandardScaler
+├── training.py                    # Script used to train the churn model
 ├── prediction_test_example.ipynb  # Notebook with example predictions on test data
-├── prediction.ipynb                # Notebook for running predictions interactively
-├── requirements.txt                # Python dependencies
-└── README.md                       # Project documentation
+├── prediction.ipynb               # Notebook for running predictions interactively
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
 
 ---
 
