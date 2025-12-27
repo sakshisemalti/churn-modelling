@@ -1,4 +1,4 @@
-# ANN Classification Churn
+# ANN Churn Prediction
 
 This project is a **Streamlit web application** that predicts whether a customer is likely to churn based on their profile and account details. It uses a trained **TensorFlow/Keras model** along with **scikit‑learn preprocessing (StandardScaler, LabelEncoder, OneHotEncoder)**.
 
