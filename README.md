@@ -1,10 +1,10 @@
-# 📊 Customer Churn Prediction App
+# Customer Churn Prediction App
 
 This project is a **Streamlit web application** that predicts whether a customer is likely to churn based on their profile and account details. It uses a trained **TensorFlow/Keras model** along with **scikit‑learn preprocessing (StandardScaler, LabelEncoder, OneHotEncoder)**.
 
 ---
 
-## 🚀 Features
+## Features
 - Interactive **Streamlit UI** for user input  
 - Encodes categorical variables (`Geography`, `Gender`) using saved encoders  
 - Scales numeric features with a saved `StandardScaler`  
@@ -13,7 +13,7 @@ This project is a **Streamlit web application** that predicts whether a customer
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Python 3.12+**
 - **TensorFlow / Keras** – deep learning model
 - **scikit‑learn** – preprocessing (scaler, encoders)
@@ -22,7 +22,7 @@ This project is a **Streamlit web application** that predicts whether a customer
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── app.py                         # Streamlit app for interactive churn prediction
 ├── model.h5                       # Trained Keras model
@@ -38,7 +38,7 @@ This project is a **Streamlit web application** that predicts whether a customer
 ```
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**
    ```bash
