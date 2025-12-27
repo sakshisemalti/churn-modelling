@@ -23,7 +23,7 @@ This project is a **Streamlit web application** that predicts whether a customer
 ---
 
 ## 📂 Project Structure
-
+```
 ├── app.py                         # Streamlit app for interactive churn prediction
 ├── model.h5                       # Trained Keras model
 ├── Data/
@@ -35,7 +35,7 @@ This project is a **Streamlit web application** that predicts whether a customer
 ├── prediction.ipynb               # Notebook for running predictions interactively
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project documentation
-
+```
 ---
 
 ## ⚙️ Setup Instructions
