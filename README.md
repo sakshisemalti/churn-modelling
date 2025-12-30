@@ -1,4 +1,4 @@
-# ANN Churn Prediction & Salary Regression
+# Smart Predictions: Churn + Salary
 
 - **Churn Prediction App** → [Live Demo](https://ann-classification-churn-nlpcham.streamlit.app/)- predicts whether a customer is likely to churn based on their profile.  
 - **Salary Prediction App** → [Live Demo](https://salary-prediction-ann.streamlit.app/) — predicts salary using a regression model.
