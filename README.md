@@ -20,36 +20,43 @@
 - Logs training runs in `regressionlogs/` for reproducibility  
 - Provides interactive salary prediction based on input features  
 
+### Hyperparameter Tuning
+- Notebook **`hyperparamtuningann.ipynb`**
+- Implements ANN hyperparameter search (neurons, layers, epochs, batch size)
+- Uses **SciKeras + GridSearchCV** for systematic tuning
+- Provides performance comparison tables and best parameter selection
+  
 ---
 
 ## Tech Stack
 - **Python 3.12+**
 - **TensorFlow / Keras** – deep learning models (classification & regression)
-- **scikit‑learn** – preprocessing (scaler, encoders)
+- **scikit‑learn** – preprocessing (scaler, encoders), hyperparameter tuning
 - **Streamlit** – web app framework
 - **Pickle** – saving/loading encoders and scaler
-- **Jupyter Notebook** – for experiments and prediction examples
+- **Jupyter Notebook** – experiments, prediction and hyperparameter tuning
 
 ---
 
 ## Project Structure
 ```
-├── app.py                         # Streamlit app for churn prediction
+├── app.py                          # Streamlit app for churn prediction
 ├── model.h5                       # Trained Keras churn model
-├── salaryregressionmodel.h5       # New trained Keras regression model (salary prediction)
+├── salaryregressionmodel.h5       # Trained Keras regression model (salary prediction)
 ├── streamlit_regression.py        # Script to train/run regression model
 ├── streamlit_salary.py            # Streamlit app for salary regression predictions
+├── hyperparamtuningann.ipynb       # Notebook for ANN hyperparameter tuning
 ├── regressionlogs/
 │   └── fit31/                     # Logs directory for regression training and validation runs
 ├── Data/
 │   ├── label_encoder_gender.pkl   # Saved LabelEncoder for Gender (churn model)
 │   ├── encode_geo.pkl             # Saved OneHotEncoder for Geography (churn model)
-│   └── scaler.pkl                 # Saved StandardScaler (churn model)
-├── training.py                    # Script used to train churn model
+│   └── scaler.pkl                  # Saved StandardScaler (churn model)
+├── training.py                     # Script used to train churn model
 ├── prediction_test_example.ipynb  # Notebook with churn test predictions
-├── prediction.ipynb               # Notebook for churn interactive predictions
-├── requirements.txt               # Python dependencies
-└── README.md                      # Documentation
+├── prediction.ipynb                # Notebook for churn interactive predictions
+├── requirements.txt                # Python dependencies
+└── README.md                       # Documentation
 ```
 ---
 
